@@ -27,8 +27,4 @@ int main()
 
 	c = sum(a, b);
 	printf("c.x: %f\nc.y: %f\nc.z: %f\n", c.x, c.y, c.z);
-
-	printf("Hello, World!");
-
-
 }
