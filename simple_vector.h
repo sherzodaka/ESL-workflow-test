@@ -9,7 +9,6 @@ typedef struct simple_vector {
 
 simple_vector_t sum(simple_vector_t a, simple_vector_t b);
 simple_vector_t sub(simple_vector_t a, simple_vector_t b);
-
-
+double dot(simple_vector_t a, simple_vector_t b);
 
 #endif

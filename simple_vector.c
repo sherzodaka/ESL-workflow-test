@@ -20,3 +20,9 @@ simple_vector_t sub(simple_vector_t a, simple_vector_t b)
 	return sum;
 }
 
+double dot(simple_vector_t a, simple_vector_t b) {
+	return (a.x * b.x) + (a.y * b.y) + (a.z * b.z);
+}
+
+
+
